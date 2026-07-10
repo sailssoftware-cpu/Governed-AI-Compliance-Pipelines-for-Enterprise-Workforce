@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Governed AI Compliance Pipelines | Sails Software</title>
+<meta name="description" content="How Sails Software delivered governed AI compliance pipelines — 70% faster cycles, 86% test coverage, zero regressions — for a Fortune 500 workforce enterprise.">
+<meta name="keywords" content="AI compliance automation, governed AI delivery, I-9 compliance software, enterprise AI pipeline, E-Verify integration, PII data governance, Sails Software">
+<meta name="author" content="Sails Software Inc.">
+<meta name="robots" content="index, follow">
+<meta name="classification" content="Case Study, Enterprise AI, Compliance Automation">
+<meta name="speakable" content="true">
+<link rel="canonical" href="https://sailssoftware.com/case-studies/governed-compliance-pipelines">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Governed AI Compliance Pipelines for Enterprise Workforce | Sails Software">
+<meta property="og:description" content="Sails Software built governed AI workflows, automated compliance verification, and E-Verify API integration — cutting development cycles by 70% with 86% automated test coverage.">
+<meta property="og:url" content="https://sailssoftware.com/case-studies/governed-compliance-pipelines">
+<meta property="og:site_name" content="Sails Software">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Governed AI Compliance Pipelines for Enterprise Workforce | Sails Software">
+<meta name="twitter:site" content="@SailsSoftware">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Governed AI Compliance Pipelines for Enterprise Workforce Technology","author":{"@type":"Organization","name":"Sails Software Inc.","url":"https://sailssoftware.com"},"publisher":{"@type":"Organization","name":"Sails Software Inc.","logo":{"@type":"ImageObject","url":"https://sailssoftware.com/images/logo.png"}},"url":"https://sailssoftware.com/case-studies/governed-compliance-pipelines","keywords":"AI compliance automation, governed AI delivery, I-9 compliance, E-Verify integration, enterprise AI pipeline","datePublished":"2026-05-01","dateModified":"2026-05-22","about":{"@type":"Thing","name":"Governed AI Compliance Pipeline Automation"}}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://sailssoftware.com"},{"@type":"ListItem","position":2,"name":"Case Studies","item":"https://sailssoftware.com/case-studies"},{"@type":"ListItem","position":3,"name":"Governed AI Compliance Pipelines","item":"https://sailssoftware.com/case-studies/governed-compliance-pipelines"}]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is governed AI delivery in enterprise environments?","acceptedAnswer":{"@type":"Answer","text":"Governed AI delivery is a structured approach to deploying AI systems in regulated enterprise environments. It encompasses audit-ready development workflows, automated compliance verification, human-in-the-loop checkpoints, and policy-controlled pipelines that ensure AI systems meet regulatory standards before reaching production."}},{"@type":"Question","name":"How does Sails Software handle I-9 compliance automation?","acceptedAnswer":{"@type":"Answer","text":"Sails Software implements automated compliance verification workflows integrated with E-Verify API, combining structured policy controls, PII data governance, and real-time identity validation to eliminate manual verification bottlenecks while maintaining full regulatory compliance."}},{"@type":"Question","name":"What results can enterprises expect from governed AI pipeline implementation?","acceptedAnswer":{"@type":"Answer","text":"Based on Sails Software delivery, enterprises can expect 70% reduction in complex development cycle times, 86% automated test coverage, zero production security regressions, and seamless migration from experimental pilots to production systems without compliance exposure."}},{"@type":"Question","name":"How does AI improve workforce compliance management?","acceptedAnswer":{"@type":"Answer","text":"AI-powered compliance management automates I-9 verification, E-Verify synchronisation, PII handling governance, and downstream pipeline integrity checks — eliminating manual processing delays, reducing regulatory exposure, and accelerating deployment timelines in regulated workforce environments."}}]}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg-page:    #000000;
+    --bg-hero:    #0F131E;
+    --bg-alt:     #1D2327;
+    --bg-card:    #2C3338;
+    --bg-accent:  #1C4666;
+    --bg-deep:    #111820;
+    --text-white: #FFFFFF;
+    --text-muted: #B5BFC9;
+    --sky:        #6EC1E4;
+    
+    --border:     rgba(110,193,228,0.15);
+    --border-card:rgba(255,255,255,0.08);
+    --r:          10px;
+  }
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth;overflow-x:hidden}
+  body{font-family:'Poppins',sans-serif;background:var(--bg-page);color:var(--text-muted);line-height:1.75;overflow-x:hidden}
+  a{color:var(--sky);text-decoration:none;transition:color .2s}
+  a:hover{color:#fff}
+  img{max-width:100%;height:auto}
+  .container{max-width:960px;margin:0 auto;padding:0 6%}
+  .container-wide{max-width:1100px;margin:0 auto;padding:0 6%}
+
+  /* ── HERO ─────────────────────────────────────── */
+  .hero{background:linear-gradient(160deg,var(--bg-hero) 0%,#151E2D 55%,var(--bg-accent) 130%);padding:6rem 6% 5rem;position:relative;overflow:hidden}
+  .hero::before{content:'';position:absolute;top:-150px;right:-100px;width:600px;height:600px;border-radius:50%;background:radial-gradient(circle,rgba(110,193,228,0.09) 0%,transparent 68%);pointer-events:none}
+  .hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--sky),transparent);opacity:.3}
+  .hero-inner{max-width:860px}
+  .tag-row{display:flex;align-items:center;gap:.75rem;margin-bottom:1.75rem;flex-wrap:wrap}
+  .tag-pill{display:inline-flex;align-items:center;gap:.4rem;background:rgba(110,193,228,0.1);color:var(--sky);border:1px solid rgba(110,193,228,0.25);font-size:.68rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;padding:.3rem .85rem;border-radius:100px;font-family:'Poppins',sans-serif}
+  .tag-pill::before{content:'●';font-size:.45rem}
+  .tag-brand{font-family:'Poppins',sans-serif;font-size:.68rem;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:#FFFFFF;opacity:.9}
+  .hero h1{font-family:'Poppins',sans-serif;font-size:clamp(1.2rem,2.5vw,1.5rem);font-weight:700;line-height:1.2;letter-spacing:-.015em;color:var(--text-white);margin-bottom:1.5rem;text-wrap:balance;max-width:100%}
+  .hero-sub{font-family:'Poppins',sans-serif;font-size:1.05rem;line-height:1.8;color:var(--text-muted);max-width:820px;border-left:3px solid var(--sky);padding-left:1.25rem}
+
+  /* ── STAT BAR ──────────────────────────────────── */
+  .stat-bar{background:var(--bg-accent);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+  .stat-bar-inner{display:grid;grid-template-columns:repeat(3,1fr);max-width:960px;margin:0 auto;padding:0 6%}
+  .stat-item{padding:2rem 1.5rem;border-right:1px solid var(--border);text-align:center}
+  .stat-item:last-child{border-right:none}
+  .stat-num{font-family:'Poppins',sans-serif;font-size:2.4rem;font-weight:800;color:var(--sky);line-height:1;display:block}
+  .stat-label{font-family:'Poppins',sans-serif;font-size:.72rem;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:var(--text-muted);margin-top:.4rem;display:block}
+
+  /* ── SECTION LABEL ────────────────────────────── */
+  .section-label{display:inline-flex;align-items:center;gap:.5rem;font-family:'Poppins',sans-serif;font-size:.69rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--text-white);margin-bottom:.9rem}
+  .section-label::before{content:'';display:block;width:22px;height:2px;background:var(--sky);border-radius:2px;flex-shrink:0}
+
+  /* ── SECTIONS ─────────────────────────────────── */
+  .cs-section{padding:4.5rem 0;border-bottom:1px solid var(--border);background:var(--bg-page)}
+  .cs-section.alt{background:var(--bg-alt)}
+  .cs-section.deep{background:var(--bg-deep)}
+  .cs-section h2{font-family:'Poppins',sans-serif;font-size:clamp(1.2rem,2.5vw,1.5rem);font-weight:700;color:var(--text-white);line-height:1.2;letter-spacing:-.015em;margin-bottom:1.5rem;text-wrap:balance}
+  .cs-section p{font-family:'Poppins',sans-serif;font-size:1rem;line-height:1.85;color:var(--text-muted);margin-bottom:1.25rem}
+  .cs-section p:last-child{margin-bottom:0}
+  .cs-section p strong{color:var(--text-white);font-weight:600}
+
+  /* ── PSO GRID ─────────────────────────────────── */
+  .pso-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1.25rem;margin-top:1.75rem}
+  .pso-card{background:var(--bg-card);border:1px solid var(--border-card);border-radius:var(--r);padding:1.75rem;display:flex;flex-direction:column;gap:.85rem}
+  .pso-card.problem{border-top:3px solid var(--sky)}
+  .pso-card.solution{border-top:3px solid var(--sky)}
+  .pso-card.outcome{border-top:3px solid var(--sky)}
+  .pso-badge{font-family:'Poppins',sans-serif;font-size:.65rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:.25rem .75rem;border-radius:100px;width:fit-content}
+  .pso-badge.problem{background:rgba(110,193,228,0.1);color:var(--sky);border:1px solid rgba(110,193,228,0.25)}
+  .pso-badge.solution{background:rgba(110,193,228,0.12);color:var(--sky);border:1px solid rgba(110,193,228,0.25)}
+  .pso-badge.outcome{background:rgba(110,193,228,0.1);color:var(--sky);border:1px solid rgba(110,193,228,0.25)}
+  .pso-list{list-style:none;padding:0;display:flex;flex-direction:column;gap:.65rem}
+  .pso-list li{font-family:'Poppins',sans-serif;font-size:.875rem;line-height:1.7;color:var(--text-muted);padding-left:1.1rem;position:relative}
+  .pso-list li::before{content:'';position:absolute;left:0;top:.65em;width:6px;height:6px;border-radius:50%;background:var(--sky)}
+  .pso-list.outcome li::before{background:var(--sky)}
+  .pso-list.problem li::before{background:var(--sky)}
+
+  /* ── CHALLENGE CARDS ──────────────────────────── */
+  .challenge-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem;margin-top:1.5rem}
+  .challenge-card{background:var(--bg-card);border:1px solid var(--border-card);border-left:3px solid var(--sky);border-radius:0 var(--r) var(--r) 0;padding:1.25rem 1.5rem}
+  .challenge-num{font-family:'Poppins',sans-serif;font-size:.65rem;font-weight:700;color:var(--sky);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.35rem}
+  .challenge-text{font-family:'Poppins',sans-serif;font-size:.88rem;line-height:1.65;color:var(--text-muted)}
+  .challenge-text strong{color:var(--text-white)}
+
+  /* ── SOLUTION CARDS ───────────────────────────── */
+  .solution-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem;margin-top:1.5rem}
+  .solution-card{background:var(--bg-card);border:1px solid var(--border-card);border-top:3px solid var(--sky);border-radius:var(--r);padding:1.5rem;display:flex;flex-direction:column;gap:.6rem;transition:box-shadow .25s,transform .2s}
+  .solution-card:hover{box-shadow:0 6px 24px rgba(110,193,228,0.1);transform:translateY(-2px)}
+  .solution-icon{width:40px;height:40px;background:rgba(110,193,228,0.1);border:1px solid rgba(110,193,228,0.2);border-radius:8px;display:flex;align-items:center;justify-content:center;color:var(--sky)}
+  .solution-title{font-family:'Poppins',sans-serif;font-size:.95rem;font-weight:700;color:var(--text-white)}
+  .solution-body{font-family:'Poppins',sans-serif;font-size:.85rem;line-height:1.7;color:var(--text-muted);margin:0}
+
+  /* ── OUTCOME GRID ─────────────────────────────── */
+  .outcome-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem;margin-top:1.75rem}
+  .outcome-card{background:var(--bg-card);border:1px solid var(--border-card);border-radius:var(--r);padding:1.75rem;text-align:center;display:flex;flex-direction:column;align-items:center;gap:.75rem;transition:box-shadow .25s,transform .2s}
+  .outcome-card:hover{box-shadow:0 6px 24px rgba(110,193,228,0.1);transform:translateY(-2px)}
+  .outcome-num{font-family:'Poppins',sans-serif;font-size:2.2rem;font-weight:800;color:var(--sky);line-height:1}
+  .outcome-title{font-family:'Poppins',sans-serif;font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--text-white)}
+  .outcome-desc{font-family:'Poppins',sans-serif;font-size:.82rem;line-height:1.6;color:var(--text-muted)}
+
+  /* ── TECH STACK ───────────────────────────────── */
+  .tech-row{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:1.25rem}
+  .tech-tag{font-family:'Poppins',sans-serif;font-size:.72rem;font-weight:500;color:var(--sky);background:rgba(110,193,228,0.08);border:1px solid rgba(110,193,228,0.2);padding:.3rem .85rem;border-radius:100px}
+
+  /* ── STAT CALLOUT ─────────────────────────────── */
+  .stat-callout{background:linear-gradient(135deg,var(--bg-accent),#0E2E45);border:1px solid rgba(110,193,228,0.25);border-radius:var(--r);padding:1.75rem 2rem;margin:2rem 0;position:relative;overflow:hidden}
+  .stat-callout::before{content:'"';position:absolute;top:-.25rem;left:1rem;font-size:5rem;color:var(--sky);opacity:.12;font-family:Georgia,serif;line-height:1}
+  .stat-callout p{font-family:'Poppins',sans-serif;font-size:.95rem;line-height:1.75;color:var(--text-white);margin:0;position:relative}
+  .stat-callout p strong{color:var(--sky)}
+
+  /* ── FAQ ──────────────────────────────────────── */
+  .faq-section{padding:4.5rem 0;background:var(--bg-deep);border-top:1px solid var(--border)}
+  .faq-section h2{font-family:'Poppins',sans-serif;font-size:clamp(1.2rem,2.5vw,1.5rem);font-weight:700;color:var(--text-white);margin-bottom:2rem;line-height:1.2}
+  .faq-grid{display:flex;flex-direction:column;gap:.65rem}
+  .faq-card{background:var(--bg-card);border:1px solid var(--border-card);border-radius:var(--r);overflow:hidden;transition:border-color .25s}
+  .faq-card:hover{border-color:rgba(110,193,228,0.3)}
+  .faq-btn{width:100%;background:none;border:none;padding:1.25rem 1.5rem;cursor:pointer;text-align:left;display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:56px;transition:background .2s;-webkit-tap-highlight-color:transparent}
+  .faq-btn:hover{background:rgba(110,193,228,0.04)}
+  .faq-btn[aria-expanded="true"]{background:rgba(110,193,228,0.06)}
+  .faq-q{font-family:'Poppins',sans-serif;font-size:.9rem;font-weight:600;color:var(--text-white);line-height:1.45}
+  .faq-icon{width:28px;height:28px;border-radius:50%;flex-shrink:0;background:rgba(110,193,228,0.1);border:1px solid rgba(110,193,228,0.2);display:flex;align-items:center;justify-content:center;color:var(--sky);font-size:1.1rem;line-height:1;transition:transform .3s,background .3s,color .3s}
+  .faq-btn[aria-expanded="true"] .faq-icon{transform:rotate(45deg);background:var(--sky);color:#000}
+  .faq-body{max-height:0;overflow:hidden;transition:max-height .4s ease,padding .3s;padding:0 1.5rem}
+  .faq-body.open{max-height:500px;padding:0 1.5rem 1.5rem}
+  .faq-body p{font-family:'Poppins',sans-serif;font-size:.875rem;line-height:1.85;color:var(--text-muted);margin:0;border-top:1px solid var(--border);padding-top:1.1rem}
+
+  /* ── CTA ──────────────────────────────────────── */
+  .cta-section{padding:5.5rem 6%;text-align:center;background:linear-gradient(160deg,var(--bg-hero) 0%,#101724 50%,#0E2035 100%);position:relative;overflow:hidden}
+  .cta-section::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--sky),transparent);opacity:.3}
+  .cta-section::after{content:'';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:700px;height:500px;border-radius:50%;background:radial-gradient(circle,rgba(110,193,228,0.07) 0%,transparent 65%);pointer-events:none}
+  .cta-inner{max-width:640px;margin:0 auto;position:relative;z-index:1}
+  .cta-eyebrow{font-family:'Poppins',sans-serif;font-size:.7rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--sky);margin-bottom:1.25rem}
+  .cta-section h2{font-family:'Poppins',sans-serif;font-size:clamp(1.2rem,2.5vw,1.5rem);font-weight:700;color:var(--text-white);line-height:1.2;letter-spacing:-.015em;margin-bottom:1.25rem}
+  .cta-section p{font-family:'Poppins',sans-serif;font-size:1rem;line-height:1.75;color:var(--text-muted);margin-bottom:2.5rem}
+  .btn{display:inline-flex;align-items:center;justify-content:center;font-family:'Poppins',sans-serif;font-size:.9rem;font-weight:600;padding:.9rem 2rem;border-radius:6px;transition:all .2s;cursor:pointer;text-decoration:none;border:none;min-height:48px;letter-spacing:.02em}
+  .btn-primary{background:var(--sky);color:#000}
+  .btn-primary:hover{opacity:.88;transform:translateY(-1px);color:#000}
+
+  /* ── RESPONSIVE ───────────────────────────────── */
+  @media(max-width:1024px){
+    .hero{padding:4.5rem 6% 4rem}
+    .cs-section{padding:3.5rem 0}
+    .pso-grid{grid-template-columns:1fr}
+    .outcome-grid{grid-template-columns:repeat(3,1fr)}
+  }
+  @media(max-width:768px){
+    .hero{padding:3.5rem 5% 3rem}
+    .hero h1{font-size:clamp(1.1rem,4vw,1.4rem)}
+    .cs-section{padding:2.75rem 0}
+    .cs-section h2{font-size:clamp(1.1rem,4vw,1.4rem)}
+    .cs-section p{font-size:.9rem}
+    .stat-bar-inner{grid-template-columns:repeat(3,1fr)}
+    .pso-grid,.challenge-grid,.solution-grid{grid-template-columns:1fr}
+    .outcome-grid{grid-template-columns:repeat(2,1fr)}
+    .faq-section,.cta-section{padding:2.75rem 5%}
+    .btn{display:block;width:100%;max-width:320px;margin:0 auto}
+    .hero-sub{font-size:.95rem}
+  }
+  @media(max-width:480px){
+    .hero{padding:2.75rem 4% 2.5rem}
+    .hero h1{font-size:1.2rem}
+    .cs-section{padding:2.25rem 0}
+    .cs-section h2{font-size:1.1rem}
+    .stat-bar-inner{grid-template-columns:1fr}
+    .stat-item{border-right:none;border-bottom:1px solid var(--border)}
+    .stat-item:last-child{border-bottom:none}
+    .outcome-grid{grid-template-columns:1fr}
+    .container,.container-wide{padding:0 4%}
+    .faq-btn{padding:1rem 1.25rem;min-height:52px}
+    .faq-body.open{padding:0 1.25rem 1.25rem}
+    .btn{max-width:100%}
+  }
+  @media(max-width:360px){
+    .container,.container-wide{padding:0 3.5%}
+    .hero h1{font-size:1.05rem}
+    .tech-tag{font-size:.65rem}
+  }
+  @media(max-width:768px) and (orientation:landscape){
+    .hero{padding-top:2rem;padding-bottom:2rem}
+    .outcome-grid{grid-template-columns:repeat(3,1fr)}
+  }
+  @supports(padding:env(safe-area-inset-left)){
+    .hero,.cta-section,.faq-section{padding-left:max(6%,env(safe-area-inset-left));padding-right:max(6%,env(safe-area-inset-right))}
+  }
+  @media(prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;animation:none!important}}
+
+  .brand-name{color:#FFFFFF;font-weight:600}
+  a,button{-webkit-tap-highlight-color:rgba(110,193,228,0.15)}
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-inner container-wide">
+    <div class="tag-row">
+      <span class="tag-pill">Enterprise AI</span>
+      <span class="tag-pill">Compliance Automation</span>
+      <span class="tag-brand"><span class="brand-name">Sails Software</span> · Case Study</span>
+    </div>
+    <h1>Governed AI Compliance Pipelines for Enterprise Workforce</h1>
+    <p class="hero-sub">A global workforce solutions provider operating at enterprise scale faced a critical challenge: fragmented onboarding pipelines, strict I-9 and PII regulatory obligations, and an inability to safely move experimental AI pilots into production. <span class="brand-name">Sails Software</span> engineered a governed AI delivery framework that solved all three — simultaneously.</p>
+  </div>
+</div>
+
+<!-- STAT BAR -->
+<div class="stat-bar">
+  <div class="stat-bar-inner">
+    <div class="stat-item">
+      <span class="stat-num">70%</span>
+      <span class="stat-label">Reduction in Development Cycle Times</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num">86%</span>
+      <span class="stat-label">Automated Test Coverage Achieved</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num">0</span>
+      <span class="stat-label">Production Security Regressions</span>
+    </div>
+  </div>
+</div>
+
+<article>
+
+<!-- SECTION 1: ABOUT THE CLIENT -->
+<section class="cs-section" aria-labelledby="s1">
+  <div class="container">
+    <div class="section-label">Client Overview</div>
+    <h2 id="s1">A Fortune 500 Workforce Solutions Provider at Regulated Scale</h2>
+    <p>The client is a leading enterprise in the workforce management and employment screening sector, processing millions of compliance-critical transactions annually across the United States. Their platforms are deeply embedded in regulated employment workflows — covering identity verification, I-9 compliance, E-Verify synchronisation, and personally identifiable information (PII) handling — where the margin for error is legally and operationally zero.</p>
+    <p>Rapid business growth had created a structural problem: multiple onboarding pipelines operating independently, no consistent governance framework across AI initiatives, and a growing gap between experimental AI development and the compliance standards required for production deployment. The organisation needed a technology partner capable of closing that gap without disrupting live operations or creating new regulatory exposure.</p>
+    <div class="stat-callout">
+      <p>The organisation was not struggling with innovation capacity. It was struggling with <strong>the ability to govern and deploy that innovation safely</strong> — in an environment where a single compliance failure carries significant legal and reputational consequences.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 2: CHALLENGES -->
+<section class="cs-section alt" aria-labelledby="s2">
+  <div class="container">
+    <div class="section-label">Business Challenges</div>
+    <h2 id="s2">Four Challenges That Made Safe AI Deployment Difficult</h2>
+    <p>Each of the four challenges the client faced was individually significant. Together, they created a compounding problem: the organisation could build AI capabilities, but could not deploy them safely or at scale.</p>
+    <div class="challenge-grid">
+      <div class="challenge-card">
+        <div class="challenge-num">Challenge 01</div>
+        <p class="challenge-text"><strong>Fragmented Onboarding Pipelines</strong> — Multiple disconnected pipelines were operating without a unified governance layer, creating delays at the core deployment stage and inconsistent compliance controls across the estate.</p>
+      </div>
+      <div class="challenge-card">
+        <div class="challenge-num">Challenge 02</div>
+        <p class="challenge-text"><strong>Regulatory Exposure on I-9 &amp; PII</strong> — Strict requirements for I-9 compliance and PII data handling meant any AI intervention in employment workflows required audit-ready controls before it could touch production data.</p>
+      </div>
+      <div class="challenge-card">
+        <div class="challenge-num">Challenge 03</div>
+        <p class="challenge-text"><strong>Pilot-to-Production Gap</strong> — Experimental AI pilots were being built outside the compliance perimeter. Moving them into production required a governance architecture that did not yet exist.</p>
+      </div>
+      <div class="challenge-card">
+        <div class="challenge-num">Challenge 04</div>
+        <p class="challenge-text"><strong>Downstream Pipeline Integrity</strong> — Without high-integrity policy controls, changes in one pipeline risked cascading errors into downstream employment screening and verification workflows.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 3: SOLUTIONS -->
+<section class="cs-section" aria-labelledby="s3">
+  <div class="container">
+    <div class="section-label">Solutions Delivered</div>
+    <h2 id="s3">How <span class="brand-name">Sails Software</span> Built Governed AI Delivery at Enterprise Scale</h2>
+    <p><span class="brand-name">Sails Software's</span> approach was architectural, not tactical. Rather than addressing each challenge in isolation, we designed a unified governed AI delivery framework that resolved the root cause: the absence of a structured pathway from AI development to compliant production deployment.</p>
+    <div class="solution-grid">
+      <div class="solution-card">
+        <div class="solution-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <div class="solution-title">Governed AI Development Workflows</div>
+        <p class="solution-body">Implemented robust governed AI development workflows with audit checkpoints, policy-controlled pipeline gates, and structured approval paths — ensuring every AI component met compliance standards before advancing through the delivery lifecycle.</p>
+      </div>
+      <div class="solution-card">
+        <div class="solution-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+        </div>
+        <div class="solution-title">Automated Compliance Verification</div>
+        <p class="solution-body">Built automated compliance verification integrated directly with the E-Verify API, replacing manual verification bottlenecks with real-time identity synchronisation and structured audit logging for every compliance event.</p>
+      </div>
+      <div class="solution-card">
+        <div class="solution-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+        </div>
+        <div class="solution-title">High-Integrity Policy Controls</div>
+        <p class="solution-body">Structured high-integrity policy controls across all downstream pipelines — defining explicit scope boundaries, PII handling rules, rollback mechanisms, and human-in-the-loop thresholds to protect pipeline integrity under all operating conditions.</p>
+      </div>
+      <div class="solution-card">
+        <div class="solution-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+        </div>
+        <div class="solution-title">Seamless Production Deployment</div>
+        <p class="solution-body">Engineered a structured pilot-to-production pathway with 86% automated test coverage, eliminating the adoption bottlenecks that had previously prevented experimental AI capabilities from reaching live environments safely.</p>
+      </div>
+    </div>
+    <div style="margin-top:2rem">
+      <div class="section-label">Technology Stack</div>
+      <div class="tech-row">
+        <span class="tech-tag">.NET Core</span>
+        <span class="tech-tag">Angular</span>
+        <span class="tech-tag">AWS</span>
+        <span class="tech-tag">Gov-AI Engine</span>
+        <span class="tech-tag">E-Verify API</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 4: OUTCOMES -->
+<section class="cs-section deep" aria-labelledby="s4">
+  <div class="container">
+    <div class="section-label">Results &amp; Outcomes</div>
+    <h2 id="s4">The Measurable Impact of Governed AI Delivery</h2>
+    <p>The results were not incremental. By addressing the governance architecture rather than individual workflow symptoms, <span class="brand-name">Sails Software</span> delivered compound improvements across speed, quality, and compliance simultaneously.</p>
+    <div class="outcome-grid">
+      <div class="outcome-card">
+        <div class="outcome-num">70%</div>
+        <div class="outcome-title">Faster Development Cycles</div>
+        <p class="outcome-desc">Complex development cycle times reduced by 70% — from weeks-long delivery loops to days, without sacrificing compliance integrity.</p>
+      </div>
+      <div class="outcome-card">
+        <div class="outcome-num">86%</div>
+        <div class="outcome-title">Automated Test Coverage</div>
+        <p class="outcome-desc">86% automated test coverage achieved across the compliance pipeline — eliminating manual QA bottlenecks and providing continuous assurance.</p>
+      </div>
+      <div class="outcome-card">
+        <div class="outcome-num">Zero</div>
+        <div class="outcome-title">Production Security Regressions</div>
+        <p class="outcome-desc">Seamless, secure deployment to production with zero security regressions — the governance framework protected the estate throughout delivery.</p>
+      </div>
+    </div>
+    <div class="stat-callout" style="margin-top:2.5rem">
+      <p>The first deployment established the infrastructure. Every subsequent AI initiative the organisation builds on this foundation will deploy <strong>faster, safer, and at a fraction of the original cost</strong> — because the governance architecture now exists and does not need to be rebuilt.</p>
+    </div>
+  </div>
+</section>
+
+</article>
+
+<!-- FAQ -->
+<section class="faq-section" aria-labelledby="faq-h">
+  <div class="container">
+    <div class="section-label">Frequently Asked Questions</div>
+    <h2 id="faq-h">Common Questions About Governed AI Compliance Pipelines</h2>
+    <div class="faq-grid">
+      <div class="faq-card">
+        <button class="faq-btn" type="button" aria-expanded="false" aria-controls="fa1" onclick="toggleFAQ(this)">
+          <span class="faq-q">What is governed AI delivery in enterprise environments?</span>
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </button>
+        <div id="fa1" class="faq-body"><p>Governed AI delivery is a structured approach to deploying AI systems in regulated enterprise environments. It encompasses audit-ready development workflows, automated compliance verification, human-in-the-loop checkpoints, and policy-controlled pipelines that ensure AI systems meet regulatory standards before reaching production.</p></div>
+      </div>
+      <div class="faq-card">
+        <button class="faq-btn" type="button" aria-expanded="false" aria-controls="fa2" onclick="toggleFAQ(this)">
+          <span class="faq-q">How does <span class="brand-name">Sails Software</span> handle I-9 compliance automation?</span>
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </button>
+        <div id="fa2" class="faq-body"><p><span class="brand-name">Sails Software</span> implements automated compliance verification workflows integrated with E-Verify API, combining structured policy controls, PII data governance, and real-time identity validation to eliminate manual verification bottlenecks while maintaining full regulatory compliance.</p></div>
+      </div>
+      <div class="faq-card">
+        <button class="faq-btn" type="button" aria-expanded="false" aria-controls="fa3" onclick="toggleFAQ(this)">
+          <span class="faq-q">What results can enterprises expect from governed AI pipeline implementation?</span>
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </button>
+        <div id="fa3" class="faq-body"><p>Based on <span class="brand-name">Sails Software</span> delivery, enterprises can expect 70% reduction in complex development cycle times, 86% automated test coverage, zero production security regressions, and seamless migration from experimental pilots to production systems without compliance exposure.</p></div>
+      </div>
+      <div class="faq-card">
+        <button class="faq-btn" type="button" aria-expanded="false" aria-controls="fa4" onclick="toggleFAQ(this)">
+          <span class="faq-q">How does AI improve workforce compliance management?</span>
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </button>
+        <div id="fa4" class="faq-body"><p>AI-powered compliance management automates I-9 verification, E-Verify synchronisation, PII handling governance, and downstream pipeline integrity checks — eliminating manual processing delays, reducing regulatory exposure, and accelerating deployment timelines in regulated workforce environments.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section" aria-label="Call to Action">
+  <div class="cta-inner">
+    <div class="cta-eyebrow">Work with <span class="brand-name">Sails Software</span></div>
+    <h2>Ready to Build Governed AI Delivery for Your Enterprise?</h2>
+    <p><span class="brand-name">Sails Software</span> builds governed AI systems for regulated enterprise environments — from compliance pipeline architecture to production deployment. Let our team map your path from pilot to production.</p>
+    <div>
+      <a class="btn btn-primary" href="https://sailssoftware.com/contact-us/">Request a Consultation</a>
+    </div>
+  </div>
+</section>
+
+<script>
+function toggleFAQ(btn) {
+  var isOpen = btn.getAttribute('aria-expanded') === 'true';
+  var tid = btn.getAttribute('aria-controls');
+  document.querySelectorAll('.faq-btn').forEach(function(b) {
+    b.setAttribute('aria-expanded','false');
+    var p = document.getElementById(b.getAttribute('aria-controls'));
+    if (p) p.classList.remove('open');
+  });
+  if (!isOpen && tid) {
+    btn.setAttribute('aria-expanded','true');
+    var p = document.getElementById(tid);
+    if (p) p.classList.add('open');
+  }
+}
+</script>
+</body>
+</html>
